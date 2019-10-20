@@ -10,27 +10,27 @@ Raspberry Pi Configuration :
 	4. Boot up PI and use SSH to access (use IP scanner to find IP)
 	5. SSH to PI.
 -----------------------------POST BOOT PROCEDURE---------------	
-	6. Install NVM In Raspberry pi		
-		a. sudo apt-get update
-		b. curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-		c. node -v(to confirm installation)
-	7. init your npm project (npm init)	
-	8. install onoff library, Socket.io-client, express 
-		a.  npm config set user 0 (AS ADMIN)
-		b. npm config set unsafe-perm true (AS ADMIN)
-	9. use the Code index.js (RASPBERRY PI FOLDER/BRANCH)
-
------------------------------PINOUTS AND CONNECTIONS-----------
-GND->relayGND->LED1GND->LED2GND
-GPIO-04->relayIN3
-GPIO-02->relayIN1
-GPIO-22->+BUTTON1
-GPIO-27->+BUTTON2
-GPIO-09->+LED1
-GPIO-07->+LED2
-5v->relayVCC->+BUTTON1->+BUTTON2
-
-
+	6. Install NVM In Raspberry pi	<br>	
+		a. sudo apt-get update<br>
+		b. curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -<br>
+		c. node -v(to confirm installation)<br>
+	7. init your npm project (npm init)	<br>
+	8. install onoff library, Socket.io-client, express<br> 
+		a.  npm config set user 0 (AS ADMIN)<br>
+		b. npm config set unsafe-perm true (AS ADMIN)<br>
+	9. use the Code index.js (RASPBERRY PI FOLDER/BRANCH)<br>
+<br>
+-----------------------------PINOUTS AND CONNECTIONS-----------<br>
+GND->relayGND->LED1GND->LED2GND<br>
+GPIO-04->relayIN3<br>
+GPIO-02->relayIN1<br>
+GPIO-22->+BUTTON1<br>
+GPIO-27->+BUTTON2<br>
+GPIO-09->+LED1<br>
+GPIO-07->+LED2<br>
+5v->relayVCC->+BUTTON1->+BUTTON2<br>
+<br>
+<br>
 
 
 -------------------------Server Configuration--------------------------
