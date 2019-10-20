@@ -10,15 +10,16 @@ Raspberry Pi Configuration :
 	4. Boot up PI and use SSH to access (use IP scanner to find IP)
 	5. SSH to PI.
 -----------------------------POST BOOT PROCEDURE---------------	<br>
-	6. Install NVM In Raspberry pi	<br>	
-		a. sudo apt-get update<br>
-		b. curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -<br>
-		c. node -v(to confirm installation)<br>
-	7. init your npm project (npm init)	<br>
-	8. install onoff library, Socket.io-client, express<br> 
-		a.  npm config set user 0 (AS ADMIN)<br>
-		b. npm config set unsafe-perm true (AS ADMIN)<br>
-	9. use the Code index.js (RASPBERRY PI FOLDER/BRANCH)<br>
+	
+	6. Install NVM In Raspberry pi	
+		a. sudo apt-get update
+		b. curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash 
+		c. node -v(to confirm installation)
+	7. init your npm project (npm init)	
+	8. install onoff library, Socket.io-client, express
+		a.  npm config set user 0 (AS ADMIN)
+		b. npm config set unsafe-perm true (AS ADMIN)
+	9. use the Code index.js (RASPBERRY PI FOLDER/BRANCH)
 <br>
 -----------------------------PINOUTS AND CONNECTIONS-----------<br>
 GND->relayGND->LED1GND->LED2GND<br>
@@ -37,17 +38,18 @@ GPIO-07->+LED2<br>
 <br>
 Working LINK : http://www.csichitkara.club (our own domain)<br>
 <br>
-1. Launch An Aws/GCP/Azure AMI/Ubuntu Server/LINUX Virtual Machine.<br> 
-2. Install NVM in the machine (Look in references)<br>
-3. Install MYSQL Server in the machine (Look in References)<br>
-	a. Sudo service mysqld start (Or use systemctl)<br>
-4. npm init<br>
-5. Install The following Packages (npm i <packagename>)<br>
-	a. Express <br>
-	b. Socket.io<br>
-	c. Mysql<br>
-	d. body-parser (deprecated)<br>
-	3. aws-sdk<br>
+
+	1. Launch An Aws/GCP/Azure AMI/Ubuntu Server/LINUX Virtual Machine.
+	2. Install NVM in the machine (Look in references)
+	3. Install MYSQL Server in the machine (Look in References)
+		a. Sudo service mysqld start (Or use systemctl)
+	4. npm init
+	5. Install The following Packages (npm i <packagename>)
+		a. Express 
+		b. Socket.io
+		c. Mysql
+		d. body-parser (deprecated)
+	3. aws-sdk
 
 
 6. Run the Provided code (index.js), make sure all modules/files are placed Properly<br>
@@ -58,6 +60,7 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 ----------------------------POST INSTALLATIONS----------------------<br>
 
 1. USE CASES<br>
+
 	a. Turn ON/OFF the Devices.<br>
 	b. Add Remove devices on your own ease.<br>
 	c. Observer real time electricity usage.<br>
