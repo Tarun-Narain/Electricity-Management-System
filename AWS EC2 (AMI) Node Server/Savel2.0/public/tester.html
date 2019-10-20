@@ -1,0 +1,21 @@
+<h1 id='status'> Switch Status </h1>
+
+
+<button onclick='toogle()'>PUCH</button>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+
+function toogle(){
+socket.emit('CMDToogle', {status:'on',id:'GPIO-02'});
+}
+
+
+socket.on('toogle', function(data){
+console.log('ss');
+document.getElementById("status").innerHTML=data.status+" "+data.id;
+});
+</script>
+
+

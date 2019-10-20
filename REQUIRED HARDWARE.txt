@@ -1,0 +1,7 @@
+1 raspbery pi 3b
+4 channel relay
+2 LED's
+1 1k ohms Resistor
+2 Push Buttons
+jumpers
+1 a normal swithboard

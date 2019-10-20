@@ -1,0 +1,705 @@
+<!DOCTYPE html> <html lang="en"> <head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="https://svgsilh.com/svg/153974-ffc107.svg">
+  <link rel="icon" type="image/png" href="https://svgsilh.com/svg/153974-ffc107.svg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Dash-Board
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!-- Fonts and icons -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="/assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="/assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <link href="/assets/demo/demo.css" rel="stylesheet" /> </head> <body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="brown" data-active-color="danger">
+      <div class="logo">
+        <a href="#" class="simple-text logo-mini">
+          <div class="logo-image-small">
+            DB
+          </div>
+        </a>
+        <a href="#" class="simple-text logo-normal">
+          Dashboard
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="photo">
+            <img src="/assets/img/placeholder.jpg" />
+          </div>
+          <div class="info">
+            <a data-toggle="collapse" href="#collapseExample" class="collapsed">
+              <span>
+                Aditya Thakur
+                <b class="caret"></b>
+              </span>
+            </a>
+            <div class="clearfix"></div>
+            <div class="collapse" id="collapseExample">
+              <ul class="nav">
+                <li>
+                  <a href=" /pages/user.html">
+                    <span class="sidebar-mini-icon">MP</span>
+                    <span class="sidebar-normal">My Profile</span>
+                  </a>
+                </li>
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+		
+     <ul class="nav">
+          <li class="active">
+            <a href='http://csichitkara.club'>
+              <i class="nc-icon nc-bank"></i>
+              <p id="dash">Dashboard</p>
+            </a>
+          </li>
+          <li>
+            <a href='http://csichitkara.club/reports'>
+              <i class="nc-icon nc-single-copy-04"></i>
+              <p id="rip">
+                Usage Report
+              </p>
+            </a>
+          </li>
+        
+          <li >
+            <a href="http://www.csichitkara.club/calender">
+              <i class="nc-icon nc-calendar-60"></i>
+              <p>Calendar</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End of SideBar -->
+	<div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-minimize">
+              <button id="minimizeSidebar" class="btn btn-icon btn-round">
+                <i class="nc-icon nc-minimal-right text-center visible-on-sidebar-mini"></i>
+                <i class="nc-icon nc-minimal-left text-center visible-on-sidebar-regular"></i>
+              </button>
+            </div>
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="#pablo">MAIN PANEL</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" 
+aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <form>
+              <div class="input-group no-border">
+                <input type="text" value="" class="form-control" placeholder="Search...">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <i class="nc-icon nc-zoom-split"></i>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link btn-magnify" href="#pablo">
+                  <i class="nc-icon nc-layout-11"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Stats</span>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item btn-rotate dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com"
+				id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+				aria-expanded="false">
+                  <i class="nc-icon nc-bell-55"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Some Actions</span>
+                  </p>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Notifications</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-rotate" href="#pablo">
+                  <i class="nc-icon nc-settings-gear-65"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Account</span>
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End of Navbar -->
+      
+      <div class="content">
+	  
+	    
+	    <div id="always">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="icon-big text-center icon-warning">
+                      <i class="nc-icon nc-globe text-warning"></i>
+                    </div>
+                  </div>
+                  <div class="col-7 col-md-8">
+                    <div class="numbers">
+                      <p class="card-category">RASPI Status:</p>
+                      <p class="card-title txt-danger small"  id="rpistatus"><b style='color:red;'><small>Connecting</small></b>
+                        <p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer ">
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-refresh"></i> Update Now
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="icon-big text-center icon-warning">
+                      <i class="nc-icon nc-money-coins text-success"></i>
+                    </div>
+                  </div>
+                  <div class="col-7 col-md-8">
+                    <div class="numbers">
+                      <p class="card-category">Bill Predicted</p>
+                      <small><p class="card-title" id='predicted'><small>Processing</small>
+                        <p></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer ">
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-calendar-o"></i> After 30 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="icon-big text-center icon-warning">
+                      <i class="nc-icon nc-vector text-danger"></i>
+                    </div>
+                  </div>
+                  <div class="col-7 col-md-8">
+                    <div class="numbers">
+                      <p class="card-category">Devices</p>
+                      <p class="card-title"><%=switches.length%>
+                        <p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer ">
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-clock-o"></i> Total Devices in Board
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="icon-big text-center icon-warning">
+                      <i class="nc-icon nc-sun-fog-29 text-primary"></i>
+                    </div>
+                  </div>
+                  <div class="col-7 col-md-8">
+                    <p class="card-category">
+					  <button type="button" class="btn btn-info btn-xs" data-toggle="modal"
+					  data-target="#myModal">
+						Add Device
+					  </button>
+					  </p>
+					
+					  
+  <!-- Modal -->
+  <div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Add Device</h4>
+        </div>
+        <div class="modal-body">
+				<div class="card-body ">
+                <form class="form-horizontal">
+                  <div class="row">
+                    <label class="col-md-3 col-form-label">Device</label>
+                    <div class="col-md-9">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="add Device">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <label class="col-md-3 col-form-label">Power Rating</label>
+                    <div class="col-md-9">
+                      <div class="form-group">
+                        <input type="email" class="form-control" id="power" placeholder="Power Rating (W)">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <label class="col-md-3 col-form-label" >GPIO Pin</label>
+                    <div class="col-md-9">
+                      <div class="form-group">
+                        <input type="password" class="form-control" id="gpio" placeholder="Enter Pin Value">
+                      </div>
+                    </div>
+                  </div>
+                  
+                </form>
+              </div>
+        </div>
+        <div class="modal-footer">
+		  <button type="button" class="btn btn-default" id="ass">Submit</button>
+          <button type="button" class="btn btn-default" data-dismiss="modal"
+		  style="padding:10px;margin:10px">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer ">
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-refresh"></i> Update now
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		</div>
+		
+	   
+		
+	
+		
+		  <div class="row">
+  <% for(var i=0; i<switches.length; i++) {%>
+				
+		<div class="col-sm-6">
+		  
+		  <div class="card">
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="numbers pull-left" id="<%=switches[i].id%>NAME">
+                      <%=switches[i].name%>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="pull-right">Status: &nbsp
+                      <span class="badge badge-pill badge-success" id="<%=switches[i].id%>STATUS"><%=switches[i].status%></span>
+                <i class='nc-icon nc-simple-remove' onclick="remove('<%=switches[i].id%>')"></i>    
+		
+		</div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body justify-content-center">
+                <!-- Switch ON/OFF -->
+				<div class="img-responsive d-flex justify-content-center img-fluid float-left ">
+				<img src="/assets/a1.jpg" id="<%=switches[i].id%>" onclick="toogle()" class="justify-content-center reflect" ></img>
+				</div>
+				
+				<div>
+				<br>
+				  <p id="<%=switches[i].id%>CTE">&nbsp &nbsp &nbsp &nbsp<b> Time Elapsed </b>: <%=switches[i].CTE%><span></span></p>
+				  <p id="<%=switches[i].id%>TTE">&nbsp &nbsp &nbsp &nbsp<b> Total Time Elapsed </b>: <%=switches[i].TTE%><span></span></p>
+				  <p id="<%=switches[i].power%>POWER">&nbsp &nbsp &nbsp &nbsp Power Rating : <%=switches[i].power%><span>0</span></p>
+				  <p id="<%=switches[i].id%>COST">&nbsp &nbsp &nbsp &nbsp Total Cost : <span>0</span></p>
+				  <div class="row">
+				<div class="col-sm-6 mt-2 ml-1">
+				  <input type="number" id="<%=switches[i].id%>NOTIN" class="form-control" placeholder="Enter Limit here">
+						</div><div class="col-sm-2">
+						<button class="btn btn-sm" id="<%=switches[i].id%>" onclick="setNotify()">SET</button>
+				</div>
+				  </div>
+				
+				
+				</div>
+              <div class="card-footer"> 
+                <hr>
+                <div class="row">
+                  <div class="col-sm-7">
+                    <div class="footer-title more btn btn-round btn-info more">More Options <span class="caret"></span></div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pull-right">
+                      <div class="dropdown">
+                          <button type="button" class="btn btn-round btn-info dropdown-toggle"
+						  data-toggle="dropdown" aria-expanded="false">
+                            <i class="nc-icon nc-settings-gear-65"></i>
+                          </button>
+                          <div class="dropdown-menu" x-placement="top-start"
+						  style="position: absolute; transform: translate3d(0px, -1559px, 0px); top: 0px; 
+left: 0px; will-change: transform;"
+						  x-out-of-boundaries="">
+                            <a class="dropdown-item" href="#">Action 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                            <a class="dropdown-item" href="#">Action 3</a>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+				<div class="hide" style="display:none;">
+				<br>
+				   <p>&nbsp &nbsp Scheduled Timer(Start to End):</p>
+				   <div class="row">
+				    <div class="col-sm-5">
+						<input type="text" class="form-control timepicker" id="<%=switches[i].id%>FROM" value="10/05/2018">
+					</div>
+					
+					<div class="col-sm-5">
+					  <input type="text" class="form-control timepicker" id="<%=switches[i].id%>TO" value="10/05/2018">
+					</div>
+					<div class="col-sm-2">
+					  <button type="submit" class="btn btn-default btn-xs" onclick="setTime()" id="<%=switches[i].id%>">Set</button>
+					</div>
+				</div>
+					<br>
+					<p> GPIO Pin value: <b><%=switches[i].id %></b></p>
+				</div>
+              </div>
+            </div>
+          </div>
+		  <!--END HERE LOOP -->
+          </div>
+		  <% }%>
+		</div>
+	  
+      <footer class="footer footer-black footer-white ">
+        <div class="container-fluid">
+          <div class="row">
+            <nav class="footer-nav">
+              <ul>
+                <li>
+                  <a href="https://www.creative-tim.com" target="_blank">HACKNITJ</a>
+                </li>
+                <li>
+                  <a href="http://blog.creative-tim.com/" target="_blank">Blog</a>
+                </li>
+                <li>
+                  <a href="https://www.creative-tim.com/license" target="_blank">About</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="credits ml-auto">
+              <span class="copyright">
+                ©
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>, Designed with <i class="fa fa-heart heart"></i> by Team Raiden
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Core JS Files -->
+  <script src="/assets/js/core/jquery.min.js"></script>
+  <script src="/assets/js/core/popper.min.js"></script>
+  <script src="/assets/js/core/bootstrap.min.js"></script>
+  <script src="/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="/assets/js/plugins/moment.min.js"></script>
+  <!-- Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="/assets/js/plugins/bootstrap-switch.js"></script>
+  <!-- Plugin for Sweet Alert -->
+  <script src="/assets/js/plugins/sweetalert2.min.js"></script>
+  <!-- Forms Validations Plugin -->
+  <script src="/assets/js/plugins/jquery.validate.min.js"></script>
+  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+  <script src="/assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="/assets/js/plugins/bootstrap-selectpicker.js"></script>
+  <!-- Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="/assets/js/plugins/bootstrap-datetimepicker.js"></script>
+  <!-- DataTables.net Plugin, full documentation here: https://datatables.net/ -->
+  <script src="/assets/js/plugins/jquery.dataTables.min.js"></script>
+  <!-- Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs -->
+  <script src="/assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="/assets/js/plugins/jasny-bootstrap.min.js"></script>
+  <!-- Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar -->
+  <script src="/assets/js/plugins/fullcalendar.min.js"></script>
+  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+  <script src="/assets/js/plugins/jquery-jvectormap.js"></script>
+  <!-- Plugin for the Bootstrap Table -->
+  <script src="/assets/js/plugins/nouislider.min.js"></script>
+  <!-- Google Maps Plugin -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="/assets/js/plugins/chartjs.min.js"></script>
+  <!-- Notifications Plugin -->
+  <script src="/assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="/assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+  <script src="/assets/demo/demo.js"></script>
+ <!-- Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="assets/js/plugins/bootstrap-datetimepicker.js"></script>
+  
+  <!-- Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="/assets/js/plugins/bootstrap-switch.js"></script>
+  <!-- Plugin for Sweet Alert -->
+  <script src="/assets/js/plugins/sweetalert2.min.js"></script>
+  <!-- Forms Validations Plugin -->
+  <script src="/assets/js/plugins/jquery.validate.min.js"></script>
+  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+  <script src="/assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="/assets/js/plugins/bootstrap-selectpicker.js"></script>
+  <!-- Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="/assets/js/plugins/bootstrap-datetimepicker.js"></script>
+  <!-- DataTables.net Plugin, full documentation here: https://datatables.net/ -->
+  <script src="/assets/js/plugins/jquery.dataTables.min.js"></script>
+  <!-- Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs -->
+  <script src="/assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="/assets/js/plugins/jasny-bootstrap.min.js"></script>
+  <!-- Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar -->
+  <script src="/assets/js/plugins/fullcalendar.min.js"></script>
+  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+  <script src="/assets/js/plugins/jquery-jvectormap.js"></script>
+  <!-- Plugin for the Bootstrap Table -->
+  <script src="/assets/js/plugins/nouislider.min.js"></script>
+  <!-- Google Maps Plugin -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="/assets/js/plugins/chartjs.min.js"></script>
+  <!-- Notifications Plugin -->
+  <script src="/assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="/assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+  <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+	
+	
+ var socket = io();
+ var working=1;
+socket.emit('rpiq', {status:'?'});
+socket.emit('getThirty', {});
+socket.on('trainedData', function(data){
+console.log(data);
+document.getElementById('predicted').innerHTML="Rs. "+data[data.length-1].substr(0,5); 
+});
+var notificationText;
+document.getElementById('ass').addEventListener('click', function(){
+console.log("added" + document.getElementById('name').value);
+var name = document.getElementById('name').value;
+var power = document.getElementById('power').value;
+var gpio = document.getElementById('gpio').value;
+if(name.length<=1)
+alert('Name Must Be greater Than 1');
+else if(isNaN(parseFloat(power))||parseFloat(power)<=0)
+alert('Wrong Power Format');
+else if(gpio.split('-').length<2)
+alert('Wrong GPIO Format')
+else{
+socket.emit('addDevice', {name: name,power: power,gpio: gpio.toUpperCase()});
+location.reload();}
+});
+
+socket.on('rpic', function(data){
+working=1;
+document.getElementById('rpistatus').innerHTML = "<b><small>"+data.status+"</small></b>";
+document.getElementById('rpistatus').style.color = "green";
+notificationText="Raspberry Pi Connected";
+ demo.showGreenNotification('top', 'right'); 
+for(var i=0;i<data.switches.length;i++)
+{
+var x=document.getElementById(data.switches[i].id+"STATUS");
+if(data.switches[i].status=='on'){
+document.getElementById(data.switches[i].id).src="/assets/a2.jpg";
+	document.getElementById(data.switches[i].id+"STATUS").innerHTML = "ON";
+	}
+if(data.switches[i].status=='off'){
+document.getElementById(data.switches[i].id).src="/assets/a1.jpg";
+	document.getElementById(data.switches[i].id+"STATUS").innerHTML = "OFF";
+	}
+}
+
+
+});
+socket.on('toogle', function(data){
+console.log('caught toogle');
+if(data.status=='on'){
+document.getElementById(data.id).src="/assets/a2.jpg";
+	document.getElementById(data.id+"STATUS").innerHTML = "ON";
+	}
+	
+if(data.status=='off'){
+document.getElementById(data.id).src="/assets/a1.jpg";
+	document.getElementById(data.id+"STATUS").innerHTML = "OFF";
+	}
+});
+
+
+socket.on('update', function(data){
+
+for(var i=0;i<data.length;i++)
+{
+  
+  var x=data[i];
+  if(x.status=='on'){
+document.getElementById(x.id).src="/assets/a2.jpg";
+	document.getElementById(x.id+"STATUS").innerHTML = "ON";
+	}
+	
+  document.getElementById(x.id+"CTE").innerHTML="&nbsp &nbsp &nbsp &nbsp<b> Time Elapsed :</b> " +x.CTE;
+  document.getElementById(x.id+"TTE").innerHTML="&nbsp &nbsp &nbsp &nbsp <b>Total Time Elapsed :</b> "+x.TTE;
+var str=(((+x.TTE/3600)* (+x.power/1000))*5).toString();
+  document.getElementById(x.id+"COST").innerHTML="&nbsp &nbsp &nbsp &nbsp <b>Total Cost :</b> "+ str.substr(0, 7);
+
+if(x.status=='off'){
+document.getElementById(x.id).src="/assets/a1.jpg";
+	document.getElementById(x.id+"STATUS").innerHTML = "OFF";
+	}
+  
+}
+});
+var x;
+socket.on('notification', function(data){
+		document.getElementById(data.id+'NAME').innerHTML=data.name+" <b style='color:red;' class='small'> Limit</b>";
+		 console.log('NOTIFICATION RECIEVED');
+		 socket.emit('setNotify', {id: data.id, notify:'0'});
+      
+      notificationText="Limit Exceeded For Device "+data.name+" of Rs. "+ data.notify;
+      demo.showDangerNotification('top', 'right'); 
+      
+});
+function text()
+{
+return notificationText;
+}
+socket.on('updateSetTime', function(data){
+for(var i=0;i<data.length;i++)
+{
+  var x=data[i];
+  document.getElementById(x.id+"FROM").innerHTML=x.from;
+  document.getElementById(x.id+"TO").innerHTML=x.to;
+}
+});
+function setNotify(e)
+{
+e = e || window.event;
+   e = e.target || e.srcElement;
+    console.log(e.id);
+var from =document.getElementById(e.id+"NOTIN").value;
+if(isNaN(parseFloat(from))||parseFloat(from)<=0)
+alert('Invalid Format');
+else{
+socket.emit('setNotify', {id: e.id, notify:from});
+alert('Limit Set');
+}
+}
+
+function setTime(e)
+{
+e = e || window.event;
+   e = e.target || e.srcElement;
+    console.log(e.id);
+var from =document.getElementById(e.id+"FROM").value;
+var to =document.getElementById(e.id+"TO").value;
+if(from.length>5||to.length>5){
+alert('Invalid Format');
+}
+if(from.split(':').length<2||to.split(':').length<2){
+alert('Invalid Format');
+}
+else{
+socket.emit('settime', {id: e.id, from : from, to:to});
+alert('Timing Set  from : '+from+" TO : " +to);
+}
+}
+
+function toogle(e){
+if(working==0)
+{
+alert('Raspberry Pi Not Connected');
+socket.emit('rpiq', {});
+}
+else{
+   e = e || window.event;
+   e = e.target || e.srcElement;
+    console.log(e.id);
+    socket.emit('CMDToogle', {status:'on',id:e.id});
+	}
+}
+
+
+  </script>
+  <script>
+	$(document).ready(function(){
+		$(".more").click(function(){
+		    
+		   $(".hide").toggle();
+		});
+	});
+	$(document).ready(function(){
+		demo.initDateTimePicker();
+		if($('.slider').length!=0)
+		  demo.initSliders();
+	
+	});
+function remove(id){
+console.log(id);
+$.post('/removeDevice', {id:id}, function(data){
+location.reload();
+//alert(data.status);
+
+});
+}
+  </script> </body>
+</html>

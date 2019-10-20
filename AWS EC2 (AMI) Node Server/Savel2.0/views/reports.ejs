@@ -1,0 +1,624 @@
+<!DOCTYPE html> <html lang="en"> <head>
+  <meta charset="utf-8" />
+  <link rel="apple-touch-icon" sizes="76x76" href="https://svgsilh.com/svg/153974-ffc107.svg">
+  <link rel="icon" type="image/png" href="https://svgsilh.com/svg/153974-ffc107.svg">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>
+    Dash-Board
+  </title>
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+  <!-- Fonts and icons -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <!-- CSS Files -->
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../assets/css/paper-dashboard.css?v=2.0.1" rel="stylesheet" />
+  <link href="../assets/demo/demo.css" rel="stylesheet" /> </head> <body class="">
+  <div class="wrapper ">
+    <div class="sidebar" data-color="brown" data-active-color="danger">
+      <div class="logo">
+        <a href="#" class="simple-text logo-mini">
+          <div class="logo-image-small">
+            DB
+          </div>
+        </a>
+        <a href="http://csichitkara.club/" class="simple-text logo-normal">
+          Dashboard
+        </a>
+      </div>
+      <div class="sidebar-wrapper">
+        <div class="user">
+          <div class="photo">
+            <img src="../assets/img/placeholder.jpg" />
+          </div>
+          <div class="info">
+            <a data-toggle="collapse" href="#collapseExample" class="collapsed">
+              <span>
+                Aditya Thakur
+                <b class="caret"></b>
+              </span>
+            </a>
+            <div class="clearfix"></div>
+            <div class="collapse" id="collapseExample">
+              <ul class="nav">
+                <li>
+                  <a href="../examples/pages/user.html">
+                    <span class="sidebar-mini-icon">MP</span>
+                    <span class="sidebar-normal">My Profile</span>
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+		
+       <ul class="nav">
+          <li >
+            <a href='http://csichitkara.club'>
+              <i class="nc-icon nc-bank"></i>
+              <p id="dash">Dashboard</p>
+            </a>
+          </li>
+          <li class="active">
+            <a href='http://csichitkara.club/reports'>
+              <i class="nc-icon nc-single-copy-04"></i>
+              <p id="rip">
+                Usage Report
+              </p>
+            </a>
+          </li>
+        
+          <li >
+            <a href="">
+              <i class="nc-icon nc-calendar-60"></i>
+              <p>Calendar</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End of SideBar -->
+	<div class="main-panel">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
+        <div class="container-fluid">
+          <div class="navbar-wrapper">
+            <div class="navbar-minimize">
+              <button id="minimizeSidebar" class="btn btn-icon btn-round">
+                <i class="nc-icon nc-minimal-right text-center visible-on-sidebar-mini"></i>
+                <i class="nc-icon nc-minimal-left text-center visible-on-sidebar-regular"></i>
+              </button>
+            </div>
+            <div class="navbar-toggle">
+              <button type="button" class="navbar-toggler">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </button>
+            </div>
+            <a class="navbar-brand" href="#pablo">MAIN PANEL</a>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" 
+aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+            <span class="navbar-toggler-bar navbar-kebab"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <form>
+              <div class="input-group no-border">
+                <input type="text" value="" class="form-control" placeholder="Search...">
+                <div class="input-group-append">
+                  <div class="input-group-text">
+                    <i class="nc-icon nc-zoom-split"></i>
+                  </div>
+                </div>
+              </div>
+            </form>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link btn-magnify" href="#pablo">
+                  <i class="nc-icon nc-layout-11"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Stats</span>
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item btn-rotate dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" 
+aria-haspopup="true" aria-expanded="false">
+                  <i class="nc-icon nc-bell-55"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Some Actions</span>
+                  </p>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-rotate" href="#pablo">
+                  <i class="nc-icon nc-settings-gear-65"></i>
+                  <p>
+                    <span class="d-lg-none d-md-block">Account</span>
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End of Navbar -->
+      
+      <div class="content">
+	  
+	    
+	    <div id="always">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="icon-big text-center icon-warning">
+                      <i class="nc-icon nc-globe text-warning"></i>
+                    </div>
+                  </div>
+                  <div class="col-7 col-md-8">
+                    <div class="numbers">
+                      <p class="card-category">RASPI Status:</p>
+                      <p class="card-title txt-danger" id="rstatus"> &#10539;
+                        <p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer ">
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-refresh"></i> Update Now
+                </div>
+              </div>
+            </div>
+          </div>
+		    <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="icon-big text-center icon-warning">
+                      <i class="nc-icon nc-money-coins text-success"></i>
+                    </div>
+                  </div>
+                  <div class="col-7 col-md-8">
+                    <div class="numbers">
+                      <p class="card-category">Bill Predicted</p>
+                      <small><p class="card-title" id='predicted'>Processing
+                        <p></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer ">
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-calendar-o"></i> Last day
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="icon-big text-center icon-warning">
+                      <i class="nc-icon nc-money-coins text-success"></i>
+                    </div>
+                  </div>
+                  <div class="col-7 col-md-8">
+                    <div class="numbers">
+                      <p class="card-category">Current Bill</p>
+                      <small><p class="card-title" id='billnow'>Processing
+                        <p></small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer ">
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-calendar-o"></i>Till Now
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="card card-stats">
+              <div class="card-body ">
+                <div class="row">
+                  <div class="col-5 col-md-4">
+                    <div class="icon-big text-center icon-warning">
+                      <i class="nc-icon nc-vector text-danger"></i>
+                    </div>
+                  </div>
+                  <div class="col-7 col-md-8">
+                    <div class="numbers">
+                      <p class="card-category">Devices</p>
+                      <p class="card-title"><%=switches.length%>
+                        <p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer ">
+                <hr>
+                <div class="stats">
+                  <i class="fa fa-clock-o"></i> In the last hour
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+		</div>
+		
+	   
+		
+		<div id="tG">
+		<div class="row">
+		<div class="col-sm-6">
+		<div class="card">
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-sm-7">
+                    <div class="numbers pull-left">
+                      Usage Stats:
+                    </div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pull-right">
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="big-title">Usage Stats</h6>
+                <canvas id="chartStock" width="420" height="136"></canvas>
+              </div>
+              <div class="card-footer">
+                <hr>
+                <div class="row">
+                  <div class="col-sm-7 d-flex">
+                    <select class="selectpicker" data-style="btn btn-info btn-round" multiple title="Year" data-size="7">
+                          <option value="13">2015</option>
+                          <option value="14">2016 </option>
+                          <option value="15">2017</option>
+                          <option value="16">2018</option>
+						  <option disabled> 2018</option>
+                          <option value="2">2019 </option>
+                          <option value="3">2020</option>
+                          <option value="4">2021</option>
+                          <option value="5">2022</option>
+                          <option value="6">2023</option>
+                          <option value="7">2024</option>
+                          <option value="8">2025</option>
+						  </select>
+                    &nbsp &nbsp &nbsp &nbsp
+                    <select class="selectpicker" data-style="btn btn-info btn-round" multiple title="Month" data-size="7">
+                          <option disabled> Options</option>
+                          <option value="2">Jan </option>
+                          <option value="3">Feb</option>
+                          <option value="4">Mar</option>
+                          <option value="5">Apr</option>
+                          <option value="6">May</option>
+                          <option value="7">Jun</option>
+                          <option value="8">July</option>
+                          <option value="9">Aug</option>
+						  <option value="9">Sep</option>
+						  <option value="9">Oct</option>
+						  <option value="9">Nov</option>
+						  <option value="9">Dec</option>
+                        </select>
+                  </div>
+				  <div class="col-sm-5">
+                    <div class="pull-right d-flex">
+                      		<select class="selectpicker" data-style="btn btn-info btn-round" multiple title="Device" 
+data-size="7">
+                          <option value="13">All</option>
+                          <option value="14">Device 1 </option>
+                          <option value="15">Device 2</option>
+                          <option value="16">Device 3</option>
+                          <option value="2">Device 4</option>
+                          
+						  </select>
+                          
+                        
+						  
+					  
+               
+                  </div>
+                </div>
+              </div>
+            </div>
+		</div>
+		</div>
+		<div class="col-sm-6">
+		<div id="usage_real">
+		 <div class="row">
+		  <div class="col-sm-12">
+		    <div class="card">
+              <div class="card-header">
+                <div class="row">
+                  <div class="col-sm-7">
+                    <div class="numbers pull-left">
+                      Real Time Usage:
+                    </div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pull-right">
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h6 class="big-title">Contiguous Stats</h6>
+                <canvas id="emailsCampaignChart" height="140" width="400" ></canvas>
+              </div>
+              <div class="card-footer">
+                <hr>
+                <div class="row">
+                  <div class="col-sm-7">
+                    <div class="footer-title">Generate Full Report</div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="pull-right">
+                      <button class="btn btn-danger btn-round btn-icon btn-sm">
+                        <i class="nc-icon nc-button-play"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+		    
+		  </div>
+		</div>
+		</div>
+		</div>
+		</div>
+		
+		  <div class="col-md-12">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title">Usage History</h4>
+              </div>
+              <div class="card-body">
+                  <select class="btn" id="month">
+				  <option value="1">January</option>
+				  <option value="2">February</option>
+				  <option value="3">March</option>
+				  <option value="4">April</option>
+				  <option value="5">May</option>
+				  <option value="6">June</option>
+				  <option value="7">July</option>
+				  <option value="8">August</option>
+				  <option value="9">September</option>
+				  <option value="10">October</option>
+				  <option value="11">November</option>
+				  <option value="12">December</option>
+				  </select>
+             
+                  <select class="btn" id="year">
+				  <option value="2018">2018</option>
+				  <option value="2019">2019</option>
+				  </select>
+				  
+				  <button class="btn" onclick="findRecord()" >Find record</button>
+				  
+			  <div class="card-body">
+             
+			 <table class="table table-striped table-bordered" id="datatable" cellspacing="0" width="100%">
+                  <thead>
+                    <tr>
+					<th>S.no</th>
+                      <th>Device(s)</th>
+                      <th>Start</th>
+                      <th>End</th>
+                      <th>Cost</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+					<th>S.no</th>
+                      <th>Device(s)</th>
+                      <th>Start</th>
+                      <th>End</th>
+                      <th>Cost</th>
+                    </tr>
+                  </tfoot>
+                  <tbody >
+                    
+                  </tbody>
+                </table>
+              </div>
+              <!-- end content-->
+            </div>
+	  
+      <footer class="footer footer-black footer-white ">
+        <div class="container-fluid">
+          <div class="row">
+            <nav class="footer-nav">
+              <ul>
+                <li>
+                  <a href="https://www.creative-tim.com" target="_blank">HACKNITJ</a>
+                </li>
+                <li>
+                  <a href="http://blog.creative-tim.com/" target="_blank">Blog</a>
+                </li>
+                <li>
+                  <a href="https://www.creative-tim.com/license" target="_blank">About</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="credits ml-auto">
+              <span class="copyright">
+                ©
+                <script>
+                  document.write(new Date().getFullYear())
+                </script>, Designed with <i class="fa fa-heart heart"></i> by Team Raiden
+              </span>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- Core JS Files -->
+  <script src="../assets/js/core/jquery.min.js"></script>
+  <script src="../assets/js/core/popper.min.js"></script>
+  <script src="../assets/js/core/bootstrap.min.js"></script>
+  <script src="../assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+  <script src="../assets/js/plugins/moment.min.js"></script>
+  <!-- Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+  <script src="../assets/js/plugins/bootstrap-switch.js"></script>
+  <!-- Plugin for Sweet Alert -->
+  <script src="../assets/js/plugins/sweetalert2.min.js"></script>
+  <!-- Forms Validations Plugin -->
+  <script src="../assets/js/plugins/jquery.validate.min.js"></script>
+  <!-- Plugin for the Wizard, full documentation here: https://github.com/VinceG/twitter-bootstrap-wizard -->
+  <script src="../assets/js/plugins/jquery.bootstrap-wizard.js"></script>
+  <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+  <script src="../assets/js/plugins/bootstrap-selectpicker.js"></script>
+  <!-- Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+  <script src="../assets/js/plugins/bootstrap-datetimepicker.js"></script>
+  <!-- DataTables.net Plugin, full documentation here: https://datatables.net/ -->
+  <script src="../assets/js/plugins/jquery.dataTables.min.js"></script>
+  <!-- Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs -->
+  <script src="../assets/js/plugins/bootstrap-tagsinput.js"></script>
+  <!-- Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+  <script src="../assets/js/plugins/jasny-bootstrap.min.js"></script>
+  <!-- Full Calendar Plugin, full documentation here: https://github.com/fullcalendar/fullcalendar -->
+  <script src="../assets/js/plugins/fullcalendar.min.js"></script>
+  <!-- Vector Map plugin, full documentation here: http://jvectormap.com/documentation/ -->
+  <script src="../assets/js/plugins/jquery-jvectormap.js"></script>
+  <!-- Plugin for the Bootstrap Table -->
+  <script src="../assets/js/plugins/nouislider.min.js"></script>
+  <!-- Google Maps Plugin -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  <!-- Chart JS -->
+  <script src="../assets/js/plugins/chartjs.min.js"></script>
+  <!-- Notifications Plugin -->
+  <script src="../assets/js/plugins/bootstrap-notify.js"></script>
+  <!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+  <script src="../assets/js/paper-dashboard.min.js?v=2.0.1" type="text/javascript"></script>
+  <script src="../assets/demo/demo.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+ <script>
+ var table;
+ var socket = io();
+ socket.emit('rpiq', {});
+ socket.emit('getThirty', {});
+ socket.emit('getBillNow', {});
+ socket.on('BillNow', function(data){
+ document.getElementById('billnow').innerHTML="Rs. "+data.toString().substr(0,7); 
+
+ });
+ 
+socket.on('trainedData', function(data){
+console.log(data);
+document.getElementById('predicted').innerHTML="Rs. "+data[data.length-1].substr(0,5); 
+});
+ function findRecord(){
+ console.log('gotcha');
+	socket.emit('findRecord', {month:document.getElementById('month').value, year:document.getElementById('year').value});
+ }
+ 
+ socket.emit('getHistory', {});
+ socket.on('History', function(data){
+
+  var table = $('#datatable').DataTable();
+table.clear().draw();
+
+if(data[0].cst!=null)
+{
+    for(var i=0;i<data.length;i++)
+			{ 
+var rowNode = table
+    .row.add( [ i+1,'ALL',data[i].date,data[i].date,data[i].cst.toString().substr(0,8) ] )
+    .draw()
+    .node();
+	}
+}
+else{
+            for(var i=0;i<data.length;i++)
+			{     
+            var x=+data[i].power/1000* +data[i].TE/3600 * 5;
+	    var rowNode = table
+    .row.add( [ i+1,data[i].name,data[i].CTES,data[i].CTEE,x.toString().substr(0,8) ] )
+    .draw()
+    .node();
+
+	}		
+			}
+ }
+ );
+ 
+ socket.on('rpic', function(data){
+ document.getElementById('rstatus').innerHTML="<b class='small'>"+data.status+"</b>";
+ });
+    var a=[0];
+    socket.on('grapher', function(data){
+    console.log('got data');
+    if(a.length>8)
+    a.shift();
+    a.push(data+data/100*(Math.random()));
+     demo.initDashboardPageCharts();
+    });
+	function func()
+	{
+	   return a;
+	}
+    $(document).ready(function() {
+      // Javascript method's body can be found in assets/js/demos.js
+	  demo.initDashboardPageCharts();
+	  demo.initPageCharts();
+	});
+  </script>
+   <script>
+    $(document).ready(function() {
+      $('#datatable').DataTable({
+        "pagingType": "full_numbers",
+        "lengthMenu": [
+          [10, 25, 50, -1],
+          [10, 25, 50, "All"]
+        ],
+        responsive: true,
+        language: {
+          search: "_INPUT_",
+          searchPlaceholder: "Search records",
+        }
+
+      });
+
+     
+
+     
+    });
+  </script>
+  <script>
+	$(document).click(function(){
+		$(".more").click(function(){
+		   if($(".hide").css("display")=="none")
+		     $(".hide").css("display","block");
+		   else
+		     $(".hide").css("display","none");
+		});
+	});
+  </script> </body>
+</html>

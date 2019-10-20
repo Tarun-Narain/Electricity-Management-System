@@ -1,0 +1,69 @@
+<h1 id='status'> Switch Status </h1>
+<h1 id='rpistatus'></h1> 
+
+
+
+<% for(var i=0; i<switches.length; i++) {%>
+<div style="border:2px solid black;width:40%;" >
+
+<%=switches[i].id%>
+  <div id="<%=switches[i].id%>"  onclick="toogle()" style="border:2px solid black;width:10%;height:40px; margin:20px; background:red;"></div>
+  <h3 id="<%=switches[i].id%>CTE">0</h3>
+ <h3 id="<%=switches[i].id%>TTE">0</h3>
+ <h3 id="<%=switches[i].id%>COST">0</h3>
+ <h3 id="<%=switches[i].power%>POWER"><%=switches[i].power%></h3>
+ <h3 id="<%=switches[i].id%>NOT"><%=switches[i].notify%></h3>
+ <input type="text" id="<%=switches[i].id%>NOTIN"></input>
+ AutoStart<br>
+ From  : <input type="text">, To : <input type="text">
+ </div>
+</div>
+<%}%>
+
+
+
+<input type='text' placeholder='dname'>
+<input type='text' placeholder='dpower'>
+<input type='text' placeholder='gpio'>
+<button onclick='addD()'>ADD Device</button>
+
+ 
+ 
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io();
+socket.emit('rpiq', {status:'?'});
+
+
+function toogle(e){
+   e = e || window.event;
+   e = e.target || e.srcElement;
+    console.log(e.id);
+    socket.emit('CMDToogle', {status:'on',id:e.id});
+}
+socket.on('rpic', function(data){
+document.getElementById('rpistatus').innerHTML = data.status;
+document.getElementById('rpistatus').style.color = "green";
+
+for(var i=0;i<data.switches.length;i++)
+if(data.switches[i].status=='on')
+document.getElementById(data.switches[i].id).style.backgroundColor= data.status=='off'?"red":"green";
+
+
+});
+socket.on('update', function(data){
+
+for(var i=0;i<data.length;i++)
+{
+  var x=data[i];
+  document.getElementById(x.id+"CTE").innerHTML=x.CTE;
+  document.getElementById(x.id+"TTE").innerHTML=x.TTE;
+}
+});
+
+socket.on('toogle', function(data){
+document.getElementById(data.id).style.backgroundColor= data.status=='off'?"red":"green";
+});
+</script>
+
+
