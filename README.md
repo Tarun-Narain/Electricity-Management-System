@@ -9,7 +9,7 @@ Raspberry Pi Configuration :
 	3. Place wpa_supplicant file with proper ssid and password of the access point.(provided in repo)
 	4. Boot up PI and use SSH to access (use IP scanner to find IP)
 	5. SSH to PI.
------------------------------POST BOOT PROCEDURE---------------	
+-----------------------------POST BOOT PROCEDURE---------------	<br>
 	6. Install NVM In Raspberry pi	<br>	
 		a. sudo apt-get update<br>
 		b. curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -<br>
