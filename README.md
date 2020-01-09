@@ -25,13 +25,13 @@ Raspberry Pi Configuration :
 <br>
 -----------------------------PINOUTS AND CONNECTIONS-----------<br>
 ```
-GND->relayGND->LED1GND->LED2GND<br>
-GPIO-04->relayIN3<br>
-GPIO-02->relayIN1<br>
-GPIO-22->+BUTTON1<br>
-GPIO-27->+BUTTON2<br>
-GPIO-09->+LED1<br>
-GPIO-07->+LED2<br>
+GND->relayGND->LED1GND->LED2GND
+GPIO-04->relayIN3
+GPIO-02->relayIN1
+GPIO-22->+BUTTON1
+GPIO-27->+BUTTON2
+GPIO-09->+LED1
+GPIO-07->+LED2
 5v->relayVCC->+BUTTON1->+BUTTON2
 ```
 <br>
