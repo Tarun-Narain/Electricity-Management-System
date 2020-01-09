@@ -63,19 +63,19 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 <br>
 ----------------------------POST INSTALLATIONS----------------------<br>
 ```
-1. USE CASES<br>
-	a. Turn ON/OFF the Devices.<br>
-	b. Add Remove devices on your own ease.<br>
-	c. Observer real time electricity usage.<br>
-	d. Go to reports and see usage history.<br>
-	e. observe graphs of real time usage<br>
-	f. search stats and tables<br>
-	g. use consumption LIMIT for each device.<br>
-	h. use Device CUSTOM TIMINGS (click on more).<br>
-	i. observe Bill Pridicted.<br>
-	j. go to calender sections watch daily usage and predicted everyday consumption.<br>
-	k. Custom SMS Notification on abnormal usage of electricity.<br>
-	l. Go to csichitkara.club/hostels || yourserverip/hostels for admin control over the building<br>
+1. USE CASES
+	a. Turn ON/OFF the Devices.
+	b. Add Remove devices on your own ease.
+	c. Observer real time electricity usage.
+	d. Go to reports and see usage history.
+	e. observe graphs of real time usage
+	f. search stats and tables
+	g. use consumption LIMIT for each device.
+	h. use Device CUSTOM TIMINGS (click on more).
+	i. observe Bill Pridicted
+	j. go to calender sections watch daily usage and predicted everyday consumption
+	k. Custom SMS Notification on abnormal usage of electricity
+	l. Go to csichitkara.club/hostels || yourserverip/hostels for admin control over the building
 	   used fro PN's and security personals.
  ```
  <br>
@@ -86,17 +86,17 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 
 Working LINK : http://www.csichitkara.club (our own domain)<br>
 ```
-1. Launch An Aws tensorflow LINUX Virtual Machine. (Deep Learning AMI (AMAZON LINUX 2) version 24.2 )<br>
-2. Install NVM in the machine (Look in references)<br>
-	Python is already Installed<br>
-4. npm init<br>
-5. Install The following Packages<br>
-	a. Express <br>
-	b. Socket.io<br>
-	(Make sure you clone the files provided (*.py))<br>
-6. Run the Provided code (x.js), make sure all modules/files are placed Properly<br>
-7. The Server runs on PORT 80 (443, SSL NOT Supported), go to your Server's IP on Browser<br>
-   And use the services. (Make sure to add 80 in inbound whitelist rules).<br>
+1. Launch An Aws tensorflow LINUX Virtual Machine. (Deep Learning AMI (AMAZON LINUX 2) version 24.2 )
+2. Install NVM in the machine (Look in references)
+	Python is already Installed
+4. npm init
+5. Install The following Packages
+	a. Express 
+	b. Socket.io
+	(Make sure you clone the files provided (*.py))
+6. Run the Provided code (x.js), make sure all modules/files are placed Properly
+7. The Server runs on PORT 80 (443, SSL NOT Supported), go to your Server's IP on Browser
+   And use the services. (Make sure to add 80 in inbound whitelist rules).
 8. REPLACE  csichitkara.club with your own IP of Node (can be used for testing)
 ```
 <br>
@@ -106,11 +106,11 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 <br>
 <br>
 ---------------------------References And Links-----------------<br>
-	```
-	a. https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp<br>
-	b. https://www.raspberrypi.org/blog/raspbian-stretch/<br>
-	c. https://www.npmjs.com/package/onoff<br>
- 	 d. www.aws.amazon.com<br>
-  	e. www.nodejs.org
-	```
+```
+a. https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
+b. https://www.raspberrypi.org/blog/raspbian-stretch/
+c. https://www.npmjs.com/package/onoff
+d. www.aws.amazon.com
+e. www.nodejs.org
+```
 <br>
