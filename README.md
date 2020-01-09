@@ -61,8 +61,9 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 8. Replace <secret> <key> with your AWS SNS Credentails in aws.js||messasge.js<br>
 ```
 <br>
-----------------------------POST INSTALLATIONS----------------------<br>
-```
+----------------------------POST INSTALLATIONS----------------------
+<br>
+````
 1. USE CASES
 	a. Turn ON/OFF the Devices.
 	b. Add Remove devices on your own ease.
@@ -77,7 +78,7 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 	k. Custom SMS Notification on abnormal usage of electricity
 	l. Go to csichitkara.club/hostels || yourserverip/hostels for admin control over the building
 	   used fro PN's and security personals.
- ```
+ ````
  <br>
  MAKE SURE AWS NODE SERVER IS ALREADY DEPLOYED----------<br>
 
@@ -98,7 +99,7 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 7. The Server runs on PORT 80 (443, SSL NOT Supported), go to your Server's IP on Browser
    And use the services. (Make sure to add 80 in inbound whitelist rules).
 8. REPLACE  csichitkara.club with your own IP of Node (can be used for testing)
-```
+````
 <br>
 -----------------------------------------------------------------------<br>
 
@@ -106,11 +107,11 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 <br>
 <br>
 ---------------------------References And Links-----------------<br>
-```
+````
 a. https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
 b. https://www.raspberrypi.org/blog/raspbian-stretch/
 c. https://www.npmjs.com/package/onoff
 d. www.aws.amazon.com
 e. www.nodejs.org
-```
+````
 <br>
