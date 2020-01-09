@@ -4,23 +4,23 @@ Project LIVE AT : http://www.csichitkara.club
 
 Raspberry Pi Configuration : 
 ```	
-	1. Burn Raspbian Stretch using win32diskimager
-	2. Place SSH File in boot drive.(Provided in Repo)
-	3. Place wpa_supplicant file with proper ssid and password of the access point.(provided in repo)
-	4. Boot up PI and use SSH to access (use IP scanner to find IP)
-	5. SSH to PI.
+1. Burn Raspbian Stretch using win32diskimager
+2. Place SSH File in boot drive.(Provided in Repo)
+3. Place wpa_supplicant file with proper ssid and password of the access point.(provided in repo)
+4. Boot up PI and use SSH to access (use IP scanner to find IP)
+5. SSH to PI.
 ```
 -----------------------------POST BOOT PROCEDURE---------------	<br>
 ```	
-	6. Install NVM In Raspberry pi	
-		a. sudo apt-get update
-		b. curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash 
-		c. node -v(to confirm installation)
-	7. init your npm project (npm init)	
-	8. install onoff library, Socket.io-client, express
-		a.  npm config set user 0 (AS ADMIN)
-		b. npm config set unsafe-perm true (AS ADMIN)
-	9. use the Code index.js (RASPBERRY PI FOLDER/BRANCH)
+6. Install NVM In Raspberry pi	
+	a. sudo apt-get update
+	b. curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash 
+	c. node -v(to confirm installation)
+7. init your npm project (npm init)	
+8. install onoff library, Socket.io-client, express
+	a.  npm config set user 0 (AS ADMIN)
+	b. npm config set unsafe-perm true (AS ADMIN)
+9. use the Code index.js (RASPBERRY PI FOLDER/BRANCH)
 ```
 <br>
 -----------------------------PINOUTS AND CONNECTIONS-----------<br>
@@ -44,19 +44,17 @@ GPIO-07->+LED2<br>
 Working LINK : http://www.csichitkara.club (our own domain)<br>
 <br>
 ```
-	1. Launch An Aws/GCP/Azure AMI/Ubuntu Server/LINUX Virtual Machine.
-	2. Install NVM in the machine (Look in references)
-	3. Install MYSQL Server in the machine (Look in References)
-		a. Sudo service mysqld start (Or use systemctl)
-	4. npm init
-	5. Install The following Packages (npm i <packagename>)
-		a. Express 
-		b. Socket.io
-		c. Mysql
-		d. body-parser (deprecated)
-	3. aws-sdk
-
-
+1. Launch An Aws/GCP/Azure AMI/Ubuntu Server/LINUX Virtual Machine.
+2. Install NVM in the machine (Look in references)
+3. Install MYSQL Server in the machine (Look in References)
+	a. Sudo service mysqld start (Or use systemctl)
+4. npm init
+5. Install The following Packages (npm i <packagename>)
+	a. Express 
+	b. Socket.io
+	c. Mysql
+	d. body-parser (deprecated)
+3. aws-sdk
 6. Run the Provided code (index.js), make sure all modules/files are placed Properly<br>
 7. The Server runs on PORT 80 (443, SSL NOT Supported), go to your Server's IP on Browser<br>
    And use the services. (Make sure to add 80 in inbound whitelist rules).<br>
@@ -64,9 +62,8 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 ```
 <br>
 ----------------------------POST INSTALLATIONS----------------------<br>
-
-1. USE CASES<br>
 ```
+1. USE CASES<br>
 	a. Turn ON/OFF the Devices.<br>
 	b. Add Remove devices on your own ease.<br>
 	c. Observer real time electricity usage.<br>
@@ -80,7 +77,8 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 	k. Custom SMS Notification on abnormal usage of electricity.<br>
 	l. Go to csichitkara.club/hostels || yourserverip/hostels for admin control over the building<br>
 	   used fro PN's and security personals.
- ```<br>
+ ```
+ <br>
  MAKE SURE AWS NODE SERVER IS ALREADY DEPLOYED----------<br>
 
 
@@ -115,4 +113,4 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
  	 d. www.aws.amazon.com<br>
   	e. www.nodejs.org
 	```
-	<br>
+<br>
