@@ -24,16 +24,16 @@ Raspberry Pi Configuration :
 ```
 <br>
 -----------------------------PINOUTS AND CONNECTIONS-----------<br>
-```
-GND->relayGND->LED1GND->LED2GND
-GPIO-04->relayIN3
-GPIO-02->relayIN1
-GPIO-22->+BUTTON1
-GPIO-27->+BUTTON2
-GPIO-09->+LED1
-GPIO-07->+LED2
-5v->relayVCC->+BUTTON1->+BUTTON2
-```
+
+	GND->relayGND->LED1GND->LED2GND
+	GPIO-04->relayIN3
+	GPIO-02->relayIN1
+	GPIO-22->+BUTTON1
+	GPIO-27->+BUTTON2
+	GPIO-09->+LED1
+	GPIO-07->+LED2
+	5v->relayVCC->+BUTTON1->+BUTTON2
+
 <br>
 <br>
 <br>
@@ -55,16 +55,16 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 	c. Mysql
 	d. body-parser (deprecated)
 3. aws-sdk
-6. Run the Provided code (index.js), make sure all modules/files are placed Properly<br>
-7. The Server runs on PORT 80 (443, SSL NOT Supported), go to your Server's IP on Browser<br>
-   And use the services. (Make sure to add 80 in inbound whitelist rules).<br>
-8. Replace <secret> <key> with your AWS SNS Credentails in aws.js||messasge.js<br>
+6. Run the Provided code (index.js), make sure all modules/files are placed Properly
+7. The Server runs on PORT 80 (443, SSL NOT Supported), go to your Server's IP on Browser
+   And use the services. (Make sure to add 80 in inbound whitelist rules).
+8. Replace <secret> <key> with your AWS SNS Credentails in aws.js||messasge.js
 ```
 <br>
 ----------------------------POST INSTALLATIONS----------------------
 <br>
-````
-1. USE CASES
+
+	1. USE CASES
 	a. Turn ON/OFF the Devices.
 	b. Add Remove devices on your own ease.
 	c. Observer real time electricity usage.
@@ -78,7 +78,7 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 	k. Custom SMS Notification on abnormal usage of electricity
 	l. Go to csichitkara.club/hostels || yourserverip/hostels for admin control over the building
 	   used fro PN's and security personals.
- ````
+	   
  <br>
  MAKE SURE AWS NODE SERVER IS ALREADY DEPLOYED----------<br>
 
@@ -106,12 +106,12 @@ Working LINK : http://www.csichitkara.club (our own domain)<br>
 
 <br>
 <br>
----------------------------References And Links-----------------<br>
-````
-a. https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
-b. https://www.raspberrypi.org/blog/raspbian-stretch/
-c. https://www.npmjs.com/package/onoff
-d. www.aws.amazon.com
-e. www.nodejs.org
-````
+--------------------References And Links-----------------<br>
+
+	a. https://www.w3schools.com/nodejs/nodejs_raspberrypi.asp
+	b. https://www.raspberrypi.org/blog/raspbian-stretch/
+	c. https://www.npmjs.com/package/onoff
+	d. www.aws.amazon.com
+	e. www.nodejs.org
+
 <br>
