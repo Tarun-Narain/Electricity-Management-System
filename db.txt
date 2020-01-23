@@ -1,0 +1,33 @@
+-----make the following tables in node.js Server--------------
+(replace username password in db.js)
+
+
+1. Login to Mysql server (mysql -u root -p)
+2. make a db (smarte)
+	3. Copy the following Commands
+ 
+	 CREATE TABLE `billusage` (
+  `sno` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `rpin` varchar(255) DEFAULT NULL,
+  `CTES` varchar(255) DEFAULT NULL,
+  `CTEE` varchar(255) DEFAULT NULL,
+  `power` varchar(255) DEFAULT NULL,
+  `TE` varchar(255) DEFAULT NULL,
+  `date` varchar(255) DEFAULT NULL,
+  `cost` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`sno`)
+) ENGINE=InnoDB AUTO_INCREMENT=842 DEFAULT CHARSET=latin1 
+
+
+
+ CREATE TABLE `daily` (
+  `sno` int(11) NOT NULL AUTO_INCREMENT,
+  `date` varchar(255) DEFAULT NULL,
+  `units` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`sno`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1
+
+
+
+YOU ARE GOOD TO GO
