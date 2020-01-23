@@ -1,5 +1,4 @@
-Project LIVE AT : http://www.csichitkara.club
-
+Project LIVE AT : http://www.csichitkara.club || http://tnarain.tech
 
 
 Raspberry Pi Configuration : 
